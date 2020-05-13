@@ -5,7 +5,8 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "ios-bundle": "react-native bundle --dev false --platform ios --entry-file index.js --bundle-output ios/main.jsbundle --assets-dest ./ios",
+    "ios-bundle": "react-native bundle --dev false --platform ios --entry-file index.tsx --bundle-output ios/main.jsbundle --assets-dest ./ios",
+    "upgrade": "react-native upgrade",
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint ."
